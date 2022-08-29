@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS `animal`;
+
+CREATE DATABASE `animal`;
+
+GRANT ALL PRIVILEGES ON `animal`.* TO 'maria'@'%';
+FLUSH PRIVILEGES;
